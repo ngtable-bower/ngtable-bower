@@ -1031,7 +1031,7 @@ ngTable.$inject = ['$q', '$parse'];
 function ngTable($q, $parse) {
     return {
         restrict: 'A',
-        priority: 1001,
+        priority: -1,
         scope: true,
         controller: 'ngTableController',
         compile: function (element) {
@@ -1627,7 +1627,7 @@ ngTableDynamic.$inject = [];
 function ngTableDynamic() {
     return {
         restrict: 'A',
-        priority: 1001,
+        priority: -2,
         scope: true,
         controller: 'ngTableController',
         compile: function (tElement) {
