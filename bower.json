@@ -11,6 +11,6 @@
     "license": "",
     "ignore": [],
     "description": "Bundled version of ng-table available via bower - ng-table source: esvit/ng-table",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "main": ["./ng-table.js","./ng-table.css"]
 }
